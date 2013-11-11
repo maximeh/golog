@@ -9,13 +9,13 @@ import (
   "os"
   "path"
   "path/filepath"
+  "reflect"
+  "runtime"
   "strconv"
   "strings"
-  "time"
   "sync"
-  "runtime"
+  "time"
   ttmpl "text/template"
-  "reflect"
 )
 
 /*Settings*/
